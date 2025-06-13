@@ -1,0 +1,121 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9fcff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 128, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #1d8a2e;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menu {
+  text-align: center;
+}
+
+.btn.home {
+  background-color: #5c5c5c;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.btn.home:hover {
+  background-color: #3d3d3d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button.submit {
+  background-color: #1d8a2e;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.submit:hover {
+  background-color: #14691f;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #dfffe0;
+  color: #1d8a2e;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.btn.action {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.edit {
+  background-color: #f0ad4e;
+}
+
+.delete {
+  background-color: #d9534f;
+}
+
+.edit:hover {
+  background-color: #ec971f;
+}
+
+.delete:hover {
+  background-color: #c9302c;
+}
+table {
+  width: 100%; /* Can change to 90%, 80%, etc. */
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-size: 16px; /* Adjust table text size */
+}
+th, td {
+  padding: 8px 12px;
+}
